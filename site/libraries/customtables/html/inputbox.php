@@ -885,7 +885,7 @@ class Inputbox
 		if(!isset($type_params[1]))
 		{
 			$result.='selector not specified';
-			break;
+			exit;
 		}
 
 		$optionname=$type_params[0];
