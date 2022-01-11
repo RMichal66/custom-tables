@@ -118,7 +118,7 @@ class Inputbox
 
 			case 'multilangtext':
 				require_once(JPATH_SITE.DIRECTORY_SEPARATOR.'components'.DIRECTORY_SEPARATOR.'com_customtables'.DIRECTORY_SEPARATOR.'libraries'.DIRECTORY_SEPARATOR.'fieldtypes'.DIRECTORY_SEPARATOR.'multilangtext.php');
-				return $this->render_multilangtext($row);
+				return $this->render_multilangtext($row, $this->cssclass);
 
 			case 'checkbox':
 				return $this->render_checkbox($value);
