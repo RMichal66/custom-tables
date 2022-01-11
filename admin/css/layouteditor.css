@@ -23,7 +23,7 @@
 }
 
 .button-wizzardbutton span:before{
-	content: "A";
+	content: "\A0";
 }
 
 .icon-wizzardbutton{
@@ -34,7 +34,7 @@
 }
 
 .button-fieldtagbutton span:before{
-	content: "A";
+	content: "\A0";
 }
 
 .icon-fieldtagbutton{
@@ -47,7 +47,7 @@
 
 
 .button-layouttagbutton span:before{
-	content: "A";
+	content: "\A0";
 }
 
 .icon-layouttagbutton{
@@ -59,7 +59,7 @@
 
 
 .button-dependencies span:before{
-	content: "A";
+	content: "\A0";
 }
 
 .icon-dependencies{
